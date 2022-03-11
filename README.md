@@ -11,5 +11,5 @@ Teknologi yang digunakan: <br>
 4. ReactJS
 <br>
 Validasi dan Email yang digunakan: <br>
-1. reCAPTCHA v2
+1. reCAPTCHA v2 <br>
 2. EmailJS
