@@ -18,7 +18,7 @@ const Contact = () => {
           </div>
           <div className='md:hidden lg:hidden text-center my-2'>
             <div className='text-tiny font-semibold text-zinc-500 flex gap-2 justify-center items-center before:block before:w-8 before:h-px before:bg-zinc-500 after:block after:w-8 after:h-px after:bg-zinc-500'>
-              <span>ATAU</span>
+              <span>OR</span>
             </div>
           </div>
           <div className='flex flex-col lg:-mt-16 md:-mt-20 gap-8 text-xs lg:text-tiny xl:text-xs text-center md:text-left lg:text-left'>
