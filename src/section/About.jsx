@@ -5,6 +5,11 @@ import SkillsTag from '../components/skills-tag'
 const About = () => {
   return (
     <section id='about' className='container mx-auto py-20 lg:px-0 xl:px-36'>
+      <div className='relative flex justify-center w-full  items-center'>
+        <div className='absolute top-0 left-32 h-72 w-72 bg-amber-500 rounded-full -z-10 mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000'></div>
+        <div className='absolute top-10  h-72 w-72 bg-purple-500 rounded-full -z-10 mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000'></div>
+        <div className='absolute top-0 right-32 h-72 w-72 bg-green-500 rounded-full -z-10 mix-blend-multiply filter blur-xl opacity-50 animate-blob'></div>
+      </div>
       <SectionHeader
         page='about'
         title='Personal Info'
