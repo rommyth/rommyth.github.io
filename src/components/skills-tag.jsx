@@ -27,6 +27,10 @@ const SkillsTag = () => {
       id: 6,
       name: 'TAILWIND'
     },
+    {
+      id: 6,
+      name: 'BOOTSTRAP'
+    }
   ]
   return (
     <div className='flex gap-3 flex-wrap justify-center lg:justify-start'>

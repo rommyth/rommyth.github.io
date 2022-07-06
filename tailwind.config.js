@@ -28,18 +28,18 @@ module.exports = {
         'custom': 'auto max-content'
       },
       animation: {
-        blob: "blob 7s infinite"
+        blob: "blob 20s infinite"
       },
       keyframes: {
         blob: {
           "0%": {
-            transform: "translate(0px, 0px) scale(1)"
+            transform: "translate(0px, 0px) scale(1)",
           },
           "33%": {
-            transform: "translate(100px, -250px) scale(1.2)"
+            transform: "translate(300px, -150px) scale(1.5)"
           },
           "66%": {
-            transform: "translate(-100px, 300px) scale(0.9)"
+            transform: "translate(-300px, 400px) scale(0.8)"
           },
           "100%": {
             transform: "translate(0px, 0px) scale(1)"

@@ -8,7 +8,7 @@ import Footer from './section/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header />
       <About />
       <Portofolio />
