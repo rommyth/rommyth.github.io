@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import { BsGithub, BsDribbble, BsChevronCompactDown } from 'react-icons/bs';
 import { HiMail } from 'react-icons/hi';
-import CV from '../assets/RommyTH-CV.pdf';
+import cv from '../assets/RommyTH-CV.pdf';
 
 const Header = () => {
   const socials = (
@@ -56,7 +56,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col md:flex-row md:justify-center lg:justify-start lg:flex-col gap-5 mt-14 lg:-mt-12">
               <a
-                href={CV}
+                href={cv}
                 name="CV RommyTH"
                 download
                 className="px-5 py-3 border-2 font-light text-center text-xs tracking-widest transition-all duration-300 hover:bg-white/20"
